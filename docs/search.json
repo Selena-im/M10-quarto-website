@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "essay_shiny_live.html",
+    "href": "essay_shiny_live.html",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "In this section, I’m going to walk you through what Shiny Live is and how it’s different from traditional Shiny apps. If you’ve already used or seen a basic Shiny app before, this is essentially a lighter, more flexible version that doesn’t require a server to run.\nShiny Live allows us to run Shiny apps directly in the browser no deployment to shinyapps.io or any backend server needed. This makes it much easier to share and publish apps, especially when you want something quick and lightweight.\n\n\n\nShiny Live works by using WebAssembly (WASM), which allows R code to run right in the browser. In a typical Shiny app, all the logic runs on a server and sends the output to the user’s browser. But with Shiny Live, all of that processing happens on the user’s machine.\nThis means: - There’s no need for a server or cloud hosting - The entire app runs in the browser as a static website - You can host it on GitHub Pages, Quarto Pub, or anywhere that supports static files\n\n\n\n\n\n\n\n\n\n\n\n\nFeature\nTraditional Shiny App\nShiny Live\n\n\n\n\nRuns on\nServer\nBrowser (client-side)\n\n\nHosting\nRequires shinyapps.io or server\nCan be hosted like any static site\n\n\nPerformance\nGreat for complex apps or large data\nBest for lightweight apps\n\n\nOffline Use\nNeeds internet\nCan work offline after loading\n\n\nServer Access\nCan connect to databases/APIs\nNo server-side access\n\n\n\n\n\n\n\n\nNo need for a server or cloud setup\nEasy to publish using GitHub Pages or Quarto Pub\nFast to load and simple to share with a link\nGreat option for demos, tutorials, or educational content\nEverything runs directly in the user’s browser\n\n\n\n\n\n\nNot ideal for large or sensitive datasets since it’s client-side\nLimited support for some R packages (especially those that rely on system libraries)\nYou can’t connect to external databases or APIs\nDebugging can be harder because everything runs in the browser\n\n\n\n\n\nShiny Live is a great option when you want to quickly create and share a small interactive app without setting up deployment. It works well for simple dashboards, internal demos, student projects, and teaching tools.\nBut if you’re working with big data, need server-side computation, or want to access external databases, a traditional Shiny app is still the better choice.\n\n\n\n\nI think Shiny Live is a really useful tool when you want to create fast, interactive content with minimal setup. It’s especially great for situations where you’re trying to explain something visually or walk someone through a process. Once you see how it works, it’s actually pretty easy to get started with."
+  },
+  {
+    "objectID": "essay_shiny_live.html#how-does-it-work",
+    "href": "essay_shiny_live.html#how-does-it-work",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Shiny Live works by using WebAssembly (WASM), which allows R code to run right in the browser. In a typical Shiny app, all the logic runs on a server and sends the output to the user’s browser. But with Shiny Live, all of that processing happens on the user’s machine.\nThis means: - There’s no need for a server or cloud hosting - The entire app runs in the browser as a static website - You can host it on GitHub Pages, Quarto Pub, or anywhere that supports static files"
+  },
+  {
+    "objectID": "essay_shiny_live.html#key-differences-shiny-vs.-shiny-live",
+    "href": "essay_shiny_live.html#key-differences-shiny-vs.-shiny-live",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Feature\nTraditional Shiny App\nShiny Live\n\n\n\n\nRuns on\nServer\nBrowser (client-side)\n\n\nHosting\nRequires shinyapps.io or server\nCan be hosted like any static site\n\n\nPerformance\nGreat for complex apps or large data\nBest for lightweight apps\n\n\nOffline Use\nNeeds internet\nCan work offline after loading\n\n\nServer Access\nCan connect to databases/APIs\nNo server-side access"
+  },
+  {
+    "objectID": "essay_shiny_live.html#pros-of-shiny-live",
+    "href": "essay_shiny_live.html#pros-of-shiny-live",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "No need for a server or cloud setup\nEasy to publish using GitHub Pages or Quarto Pub\nFast to load and simple to share with a link\nGreat option for demos, tutorials, or educational content\nEverything runs directly in the user’s browser"
+  },
+  {
+    "objectID": "essay_shiny_live.html#limitations-and-tradeoffs",
+    "href": "essay_shiny_live.html#limitations-and-tradeoffs",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Not ideal for large or sensitive datasets since it’s client-side\nLimited support for some R packages (especially those that rely on system libraries)\nYou can’t connect to external databases or APIs\nDebugging can be harder because everything runs in the browser"
+  },
+  {
+    "objectID": "essay_shiny_live.html#when-to-use-shiny-live",
+    "href": "essay_shiny_live.html#when-to-use-shiny-live",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Shiny Live is a great option when you want to quickly create and share a small interactive app without setting up deployment. It works well for simple dashboards, internal demos, student projects, and teaching tools.\nBut if you’re working with big data, need server-side computation, or want to access external databases, a traditional Shiny app is still the better choice."
+  },
+  {
+    "objectID": "essay_shiny_live.html#final-thoughts",
+    "href": "essay_shiny_live.html#final-thoughts",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "I think Shiny Live is a really useful tool when you want to create fast, interactive content with minimal setup. It’s especially great for situations where you’re trying to explain something visually or walk someone through a process. Once you see how it works, it’s actually pretty easy to get started with."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hi! I’m Seunghee Im, and this website showcases the work I’ve completed for Module 10. It includes an interactive dashboard, essays about Shiny and Shiny Live apps, and a detailed explanation of the process behind each component.\nThis page is a short introduction to who I am, my goals, and my background.\n\n\n\n\n\n\n\n\nI’m currently pursuing a Master of Science in Digital Marketing at California State Polytechnic University, Pomona. I’m passionate about blending creativity and analytics to drive results in digital marketing. My goal is to become a marketing strategist who understands how to use data to improve user experience, campaign performance, and business growth.\n\n\n\n\nMy long-term goal is to work in a digital marketing or performance marketing role at a data-driven company. I’m especially interested in SEO, content strategy, web analytics, and customer journey optimization. I enjoy turning insights into action and helping brands grow their online presence through smart, effective marketing.\n\n\n\n\n\nDigital Marketing Strategy\n\nGoogle Analytics 4 (GA4)\n\nSEO & SEM\n\nR (ggplot2, dplyr, Shiny, Quarto)\n\nTableau & Excel\n\nContent Creation & Copywriting\n\nEmail Marketing & Social Media\n\n\n\n\n\nM.S. in Digital Marketing\nCalifornia State Polytechnic University, Pomona\nExpected Graduation: August 2025\nB.B.A. in Marketing\nUniversity of Alaska Anchorage\nGraduated: December 2023\n\nThank you for visiting my site. You can explore the other pages using the navigation bar above."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Welcome",
+    "section": "",
+    "text": "I’m currently pursuing a Master of Science in Digital Marketing at California State Polytechnic University, Pomona. I’m passionate about blending creativity and analytics to drive results in digital marketing. My goal is to become a marketing strategist who understands how to use data to improve user experience, campaign performance, and business growth."
+  },
+  {
+    "objectID": "index.html#career-aspiration",
+    "href": "index.html#career-aspiration",
+    "title": "Welcome",
+    "section": "",
+    "text": "My long-term goal is to work in a digital marketing or performance marketing role at a data-driven company. I’m especially interested in SEO, content strategy, web analytics, and customer journey optimization. I enjoy turning insights into action and helping brands grow their online presence through smart, effective marketing."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Welcome",
+    "section": "",
+    "text": "Digital Marketing Strategy\n\nGoogle Analytics 4 (GA4)\n\nSEO & SEM\n\nR (ggplot2, dplyr, Shiny, Quarto)\n\nTableau & Excel\n\nContent Creation & Copywriting\n\nEmail Marketing & Social Media"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Welcome",
+    "section": "",
+    "text": "M.S. in Digital Marketing\nCalifornia State Polytechnic University, Pomona\nExpected Graduation: August 2025\nB.B.A. in Marketing\nUniversity of Alaska Anchorage\nGraduated: December 2023\n\nThank you for visiting my site. You can explore the other pages using the navigation bar above."
+  },
+  {
+    "objectID": "essay_shiny_apps.html",
+    "href": "essay_shiny_apps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Hey team! I put this together to help introduce you to Shiny, an R package that lets us build interactive web apps without needing to know any web development. If you already know how to use R (especially with data visualization), this is a fun and super useful next step.\n\n\n\nShiny is a package from RStudio that lets us turn R scripts into interactive web applications. You can make apps that:\n\nReact to user inputs like sliders, buttons, or text fields\nUpdate plots or tables instantly without rerunning code\nRun directly in a web browser\n\nBasically, it brings your data to life with interactivity. no JavaScript needed.\n\n\n\n\nEvery Shiny app has two parts:\n\n\n\n\n\n\n\nPart\nWhat it does\n\n\n\n\nui\nThe layout or visual part of the app (what users see)\n\n\nserver\nThe logic behind the scenes (what the app does with the input)\n\n\n\nHere’s a super simple example:\n```r library(shiny)\nui &lt;- fluidPage( titlePanel(“Simple App”), sliderInput(“num”, “Choose a number:”, 1, 100, 50), plotOutput(“histPlot”) )\nserver &lt;- function(input, output) { output\\(histPlot &lt;- renderPlot({\n    hist(rnorm(input\\)num)) }) }\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "essay_shiny_apps.html#what-is-shiny",
+    "href": "essay_shiny_apps.html#what-is-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny is a package from RStudio that lets us turn R scripts into interactive web applications. You can make apps that:\n\nReact to user inputs like sliders, buttons, or text fields\nUpdate plots or tables instantly without rerunning code\nRun directly in a web browser\n\nBasically, it brings your data to life with interactivity. no JavaScript needed."
+  },
+  {
+    "objectID": "essay_shiny_apps.html#how-it-works-simple-structure",
+    "href": "essay_shiny_apps.html#how-it-works-simple-structure",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Every Shiny app has two parts:\n\n\n\n\n\n\n\nPart\nWhat it does\n\n\n\n\nui\nThe layout or visual part of the app (what users see)\n\n\nserver\nThe logic behind the scenes (what the app does with the input)\n\n\n\nHere’s a super simple example:\n```r library(shiny)\nui &lt;- fluidPage( titlePanel(“Simple App”), sliderInput(“num”, “Choose a number:”, 1, 100, 50), plotOutput(“histPlot”) )\nserver &lt;- function(input, output) { output\\(histPlot &lt;- renderPlot({\n    hist(rnorm(input\\)num)) }) }\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "detailed_tasks.html",
+    "href": "detailed_tasks.html",
+    "title": "Detailed Description of the Tasks",
+    "section": "",
+    "text": "Detailed Description of the Tasks\nFor this assignment, I followed the instructional videos and created a dashboard using Productfolio’s GA4 data. My steps were:\n\nWatched Quarto dashboard tutorial videos.\nSelected data from Cleaned_Pageviews.xlsx and Cleaned_Site_Events_Data.csv.\nCreated visualizations using ggplot2 and DT.\nAdded my dashboard code to the dashboard.qmd file.\nCreated this website with five pages and edited _quarto.yml.\nPreviewed and rendered the site using quarto preview.\n\nThis page is a summary of the full assignment process."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Productfolio Dashboard\nThis dashboard includes visual summaries of user activity, event counts, and engagement based on GA4 data from Productfolio.\n\npageviews |&gt;\n  slice_max(views, n = 10) |&gt;\n  ggplot(aes(x = reorder(page_path_and_screen_class, views), y = views)) +\n  geom_col(fill = \"steelblue\") +\n  coord_flip() +\n  labs(title = \"Top 10 Pages by Views\", x = \"Page Path\", y = \"Views\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\npageviews |&gt;\n  slice_max(average_engagement_time_per_active_user, n = 10) |&gt;\n  ggplot(aes(x = reorder(page_path_and_screen_class, average_engagement_time_per_active_user), \n             y = average_engagement_time_per_active_user)) +\n  geom_col(fill = \"orange\") +\n  coord_flip() +\n  labs(title = \"Avg Engagement Time per User (Top 10 Pages)\", \n       x = \"Page Path\", y = \"Seconds\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\npageviews |&gt;\n  slice_max(views_per_active_user, n = 10) |&gt;\n  ggplot(aes(x = reorder(page_path_and_screen_class, views_per_active_user), \n             y = views_per_active_user)) +\n  geom_col(fill = \"seagreen\") +\n  coord_flip() +\n  labs(title = \"Views per Active User (Top 10 Pages)\", x = \"Page Path\", y = \"Views/User\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\ndatatable(pageviews, options = list(pageLength = 15), \n          caption = \"Full Pageview Metrics from GA4\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]

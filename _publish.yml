@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 401589e8-c438-4aae-bccf-d3b9a1165fd8
+      url: https://selenaim.quarto.pub/m10-quarto-website

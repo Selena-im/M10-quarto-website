@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "M10 Quarto Website"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Dashboard"
+        file: dashboard.qmd
+      - text: "Shiny Apps"
+        file: essay_shiny_apps.qmd
+      - text: "Shiny Live"
+        file: essay_shiny_live.qmd
+
+
+
+
+

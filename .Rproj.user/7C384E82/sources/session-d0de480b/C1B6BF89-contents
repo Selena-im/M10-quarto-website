@@ -1,0 +1,52 @@
+---
+title: "Welcome"
+format: html
+---
+
+# Welcome to My Website
+
+Hi! I’m Seunghee Im, and this website showcases the work I’ve completed for Module 10. It includes an interactive dashboard, essays about Shiny and Shiny Live apps, and a detailed explanation of the process behind each component.
+
+This page is a short introduction to who I am, my goals, and my background.
+
+------------------------------------------------------------------------
+
+## About Me
+
+![](images/IMG_0327.jpeg){fig-align="center" width="2908"}
+
+I’m currently pursuing a Master of Science in Digital Marketing at California State Polytechnic University, Pomona. I'm passionate about blending creativity and analytics to drive results in digital marketing. My goal is to become a marketing strategist who understands how to use data to improve user experience, campaign performance, and business growth.
+
+------------------------------------------------------------------------
+
+## Career Aspiration
+
+My long-term goal is to work in a digital marketing or performance marketing role at a data-driven company. I’m especially interested in SEO, content strategy, web analytics, and customer journey optimization. I enjoy turning insights into action and helping brands grow their online presence through smart, effective marketing.
+
+------------------------------------------------------------------------
+
+## Skills
+
+-   Digital Marketing Strategy\
+-   Google Analytics 4 (GA4)\
+-   SEO & SEM\
+-   R (ggplot2, dplyr, Shiny, Quarto)\
+-   Tableau & Excel\
+-   Content Creation & Copywriting\
+-   Email Marketing & Social Media
+
+------------------------------------------------------------------------
+
+## Education
+
+**M.S. in Digital Marketing**\
+California State Polytechnic University, Pomona\
+Expected Graduation: August 2025
+
+**B.B.A. in Marketing**\
+University of Alaska Anchorage\
+Graduated: December 2023
+
+------------------------------------------------------------------------
+
+Thank you for visiting my site. You can explore the other pages using the navigation bar above.

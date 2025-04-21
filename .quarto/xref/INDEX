@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "d5a3af6b"
+  },
+  "detailed_tasks.qmd": {
+    "detailed_tasks.html": "96d45478"
+  },
+  "essay_shiny_apps.qmd": {
+    "essay_shiny_apps.html": "19ef2244"
+  },
+  "dashboard.qmd": {
+    "dashboard.html": "3869b46f"
+  },
+  "about.qmd": {
+    "about.html": "1d300d61"
+  },
+  "essay_shiny_live.qmd": {
+    "essay_shiny_live.html": "c71225f1"
+  }
+}

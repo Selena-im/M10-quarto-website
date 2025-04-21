@@ -1,0 +1,68 @@
+---
+title: "Essay on Shiny Live"
+format: html
+---
+
+# What is Shiny Live?
+
+In this section, I’m going to walk you through what **Shiny Live** is and how it’s different from traditional Shiny apps. If you’ve already used or seen a basic Shiny app before, this is essentially a lighter, more flexible version that doesn’t require a server to run.
+
+**Shiny Live** allows us to run Shiny apps directly in the browser no deployment to shinyapps.io or any backend server needed. This makes it much easier to share and publish apps, especially when you want something quick and lightweight.
+
+---
+
+## How Does It Work?
+
+Shiny Live works by using **WebAssembly (WASM)**, which allows R code to run right in the browser. In a typical Shiny app, all the logic runs on a server and sends the output to the user’s browser. But with Shiny Live, all of that processing happens on the user’s machine.
+
+This means:
+- There’s no need for a server or cloud hosting
+- The entire app runs in the browser as a static website
+- You can host it on GitHub Pages, Quarto Pub, or anywhere that supports static files
+
+---
+
+## Key Differences: Shiny vs. Shiny Live
+
+| Feature              | Traditional Shiny App              | Shiny Live                          |
+|---------------------|-------------------------------------|-------------------------------------|
+| Runs on             | Server                              | Browser (client-side)               |
+| Hosting             | Requires shinyapps.io or server     | Can be hosted like any static site |
+| Performance         | Great for complex apps or large data| Best for lightweight apps          |
+| Offline Use         | Needs internet                     | Can work offline after loading     |
+| Server Access       | Can connect to databases/APIs       | No server-side access              |
+
+---
+
+## Pros of Shiny Live
+
+- No need for a server or cloud setup
+- Easy to publish using GitHub Pages or Quarto Pub
+- Fast to load and simple to share with a link
+- Great option for demos, tutorials, or educational content
+- Everything runs directly in the user’s browser
+
+---
+
+## Limitations and Tradeoffs
+
+- Not ideal for large or sensitive datasets since it's client-side
+- Limited support for some R packages (especially those that rely on system libraries)
+- You can’t connect to external databases or APIs
+- Debugging can be harder because everything runs in the browser
+
+---
+
+## When to Use Shiny Live
+
+Shiny Live is a great option when you want to quickly create and share a small interactive app without setting up deployment. It works well for simple dashboards, internal demos, student projects, and teaching tools.
+
+But if you're working with big data, need server-side computation, or want to access external databases, a traditional Shiny app is still the better choice.
+
+---
+
+## Final Thoughts
+
+I think Shiny Live is a really useful tool when you want to create fast, interactive content with minimal setup. It’s especially great for situations where you're trying to explain something visually or walk someone through a process. Once you see how it works, it’s actually pretty easy to get started with.
+
+

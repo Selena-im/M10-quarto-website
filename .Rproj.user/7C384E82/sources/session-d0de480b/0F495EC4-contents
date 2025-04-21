@@ -1,0 +1,19 @@
+---
+title: "Detailed Description of the Tasks"
+format: html
+---
+
+# Detailed Description of the Tasks
+
+For this assignment, I followed the instructional videos and created a dashboard using Productfolio’s GA4 data. My steps were:
+
+1. Watched Quarto dashboard tutorial videos.
+2. Selected data from Cleaned_Pageviews.xlsx and Cleaned_Site_Events_Data.csv.
+3. Created visualizations using `ggplot2` and `DT`.
+4. Added my dashboard code to the `dashboard.qmd` file.
+5. Created this website with five pages and edited `_quarto.yml`.
+6. Previewed and rendered the site using `quarto preview`.
+
+This page is a summary of the full assignment process.
+
+
